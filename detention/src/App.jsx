@@ -8,7 +8,6 @@ function App() {
 
   function writeSentence() {
     setSentence('I will never mutate state or props directly')
-    console.log(sentence)
   }
 
   return (
